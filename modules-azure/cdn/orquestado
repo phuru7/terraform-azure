@@ -1,0 +1,9 @@
+module "cdn" {
+    source = "./cdn"
+    ambiente = "d"
+    cdn_name = "cdnFrontLayer-Desa"
+    location = "eastus2"
+    cdn_resource_group = "rg-FrontLayer-Desa"
+    cdn_tier = "Standard_Akamai"
+
+}
